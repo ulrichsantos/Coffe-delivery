@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from "./pages/Home";
-import { CompleteOrderPage } from "./CompleteOrder";
-import { DefaultLayout } from "./DefaultLayout";
+import { CompleteOrderPage } from "./pages/CompleteOrder";
+import { DefaultLayout } from "./layouts/DefaultLayout";
 
 export function Router() {
   return (
